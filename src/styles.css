@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
+
+body {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  width: auto;
+  font-family: Roboto, sans-serif;
+}
+
+.App {
+  text-align: center;
+  border: 1px solid black;
+  font-family: sans-serif;
+}
+
+/* header {
+  padding: 0px 100px;
+} */
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  /* text-align: center;
+  justify-content: center; */
+  align-items: center;
+}
+
+.transaction {
+  align-items: center;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 100px;
+  border-radius: 10px;
+}
+
+.labels {
+  float: left;
+  align-items: left;
+  text-align: left;
+}
+
+.income-expense {
+  margin: 0 50px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.transaction-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin: 5px;
+}
+
+.positive {
+  margin: 5px 20px;
+  background-color: rgb(209, 238, 236);
+}
+
+.negative {
+  margin: 5px 20px;
+  background-color: rgb(235, 192, 192);
+}
+
+.transaction-name {
+  margin-left: 20px;
+}
+
+.transaction-amount {
+  margin-right: 20px;
+}
+
+.closeBtn {
+  float: right;
+}
+
+.modal-form {
+  display: flex;
+  flex-direction: column;
+
+  font-style: italic;
+}
+
+.inputForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.input-div {
+  display: flex;
+  margin: 20px;
+}
+
+#transaction {
+  margin-left: 20px;
+}
+
+.balance-amount {
+  font-size: 40px;
+}
+
+.balance-small {
+  font-size: 30px;
+}
